@@ -88,18 +88,18 @@ export default async function Video({ params }: PageProps) {
         name: `${file.title}`,
         image: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://abgsquirt.pages.dev/v/${file.filecode}`,
+        url: `https://bocilsquirt.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://abgsquirt.pages.dev/favicon.ico'},
+            logo: 'https://bocilsquirt.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://abgsquirt.pages.dev'
+                url: 'https://bocilsquirt.pages.dev'
               }
         }
         const jsonLd2 = {
@@ -108,18 +108,18 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.title}`,
         image: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://bociltocil.pages.dev/v/${file.filecode}`,
+        url: `https://bocilsquirt.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://bociltocil.pages.dev/favicon.ico'},
+            logo: 'https://bocilsquirt.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://bociltocil.pages.dev'
+                url: 'https://bocilsquirt.pages.dev'
               }
         }
         
