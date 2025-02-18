@@ -44,9 +44,9 @@ export default function RootLayout({
             "name":"admin",
             "url":"https://bocilsquirt.pages.dev"
             },
-            "foundingDate":"2024-11-29"
+            "foundingDate":"2024-06-10"
         }
-        const jsonLd1 = {
+        const jsonLd2 = {
             "@context": "https://schema.org",
         "@type": "WebSite",
         "name": `${SITENAME}`,
@@ -72,7 +72,7 @@ export default function RootLayout({
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd1) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd2) }}
         />
                     {children}
                 </ThemeProvider>
